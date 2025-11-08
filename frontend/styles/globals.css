@@ -1,0 +1,12 @@
+/**
+ * Global CSS
+ * * This file imports the Tailwind directives.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add global base styles here if needed */
+body {
+  @apply antialiased text-gray-800;
+}
